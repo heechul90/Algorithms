@@ -11,27 +11,47 @@ class HashTable:
 
         if self.hash_table[hash_value] != 0:
             for i in range(len(self.hash_table[hash_value])):
-                if self.hash_table[hash_value][i][0] == gen_key:
-                    self.hash_table[hash_value][i][1] = value
+                if self.hash_table[i] == 0:
+                    self.hash_table[i] = [gen_key, value]
                     return
-
-            self.hash_table[hash_value].append([gen_key, value])
+                elif self.hash_table[i][0] == gen_key:
+                    self.hash_table[i][1] = value
+                    return
         else:
-            self.hash_table[hash_value] = [[gen_key, value]]
+            self.hash_table[hash_value] = [gen_key, value]
 
     def read(self, key):
         gen_key = hash(key)
         hash_value = self.hash_function(gen_key)
 
         if self.hash_table[hash_value] != 0:
-            for i in range(len(self.hash_table[hash_value])):
-                if self.hash_table[hash_value][i][0] == gen_key:
-                    return self.hash_table[hash_value][i][1]
-            return None
+            for i in range(hash_value, len(self.hash_table)):
+                if self.hash_table[i] == 0:
+                    return None
+                elif self.hash_table[i][0] == gen_key:
+                    return self.hash_table[i][1]
         else:
             return None
 
     def print(self):
         print(self.hash_table)
 
+
+
+ht = HashTable()
+ht.insert(1, 'a')
+ht.print()
+ht.insert(1, 'b')
+ht.print()
+ht.insert(1, 'c')
+ht.print()
+ht.insert('name', 'lee')
+ht.print()
+ht.insert(2, 'b')
+ht.print()
+ht.insert(3, 'c')
+ht.print()
+print(ht.read(2))
+ht.insert(4, 'd')
+ht.print()
 

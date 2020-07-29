@@ -1,7 +1,7 @@
 from hash_table.HashTable import HashTable
 
 
-def main():
+def test_HashTable():
     ht = HashTable()
     ht.insert(1, 'a')
     ht.print()
@@ -14,6 +14,9 @@ def main():
     print(ht.read(2))
     ht.insert(4, 'd')
     ht.print()
+
+def main():
+    test_HashTable()
 
 if __name__ == "__main__":
     main()
