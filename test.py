@@ -15,8 +15,10 @@ def test_HashTable():
     ht.insert(4, 'd')
     ht.print()
 
+
 def main():
     test_HashTable()
+
 
 if __name__ == "__main__":
     main()
