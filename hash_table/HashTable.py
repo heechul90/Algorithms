@@ -56,4 +56,6 @@ ht.insert(4, 'd')
 ht.print()
 ht.insert(5, 'w')
 ht.print()
+ht.insert(6, 'w')
+ht.print()
 
