@@ -58,4 +58,6 @@ ht.insert(5, 'w')
 ht.print()
 ht.insert(6, 'w')
 ht.print()
+ht.insert(7, 'w')
+ht.print()
 
