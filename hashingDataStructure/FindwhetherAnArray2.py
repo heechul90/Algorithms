@@ -42,10 +42,6 @@ def binarySearch(arr, low, high, x):
 
     return -1
 
-
-
-
-
 def partition(A, si, ei):
     x = A[ei]
     i = (si - 1)
