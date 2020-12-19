@@ -17,4 +17,6 @@ a = 15
 b = 20
 print('LCM of', a, 'and', b, 'is', lcm(a, b))
 
+
+
 # This code is contributed by Danish Raza
