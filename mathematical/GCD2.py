@@ -57,7 +57,4 @@ if a == 0:
 else:
     print(gcdLarge(a, b))
 
-
-
-
     # This code is contributed by Nikita Tiwari.
