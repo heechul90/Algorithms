@@ -51,6 +51,7 @@ a = 1221
 # Second number is represented
 # as string because it can not
 # be handled by integer data type
+
 b = "1234567891011121314151617181920212223242526272829"
 if a == 0:
     print(b)
