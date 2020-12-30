@@ -24,7 +24,6 @@ def binomialProbability(n, k, p):
     return (nCr(n, k) * pow(p, k) *
             pow(1 - p, n - k));
 
-
 # Driver code
 n = 10;
 k = 5;
