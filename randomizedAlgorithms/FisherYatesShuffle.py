@@ -20,4 +20,5 @@ arr = [1, 2, 3, 4, 5, 6, 7, 8]
 n = len(arr)
 print(randomize(arr, n))
 
+
 # This code is contributed by Pratik Chhajer
