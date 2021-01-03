@@ -14,6 +14,8 @@ def randomize(arr, n):
         arr[i], arr[j] = arr[j], arr[i]
     return arr
 
+
+
 # Driver program to test above function.
 arr = [1, 2, 3, 4, 5, 6, 7, 8]
 n = len(arr)
