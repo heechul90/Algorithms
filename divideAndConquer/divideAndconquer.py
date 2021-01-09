@@ -41,7 +41,6 @@ def DAC_Min(a, index, l):
     else:
         return min;
 
-
 # Driver Code
 if __name__ == '__main__':
     # Defining the variables
@@ -57,5 +56,6 @@ if __name__ == '__main__':
     min = DAC_Min(a, 0, 7);
     print("The minimum number in a given array is : ", min);
     print("The maximum number in a given array is : ", max);
+
 
 # This code is contributed by 29AjayKumar
