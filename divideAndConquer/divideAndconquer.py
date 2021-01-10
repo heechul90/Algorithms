@@ -21,7 +21,6 @@ def DAC_Max(a, index, l):
     else:
         return max;
 
-
 # Function to find the minimum no.
 # in a given array.
 def DAC_Min(a, index, l):
@@ -56,6 +55,5 @@ if __name__ == '__main__':
     min = DAC_Min(a, 0, 7);
     print("The minimum number in a given array is : ", min);
     print("The maximum number in a given array is : ", max);
-
 
 # This code is contributed by 29AjayKumar
