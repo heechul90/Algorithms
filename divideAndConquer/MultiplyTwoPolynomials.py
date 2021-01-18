@@ -19,10 +19,6 @@ def multiply(A, B, m, n):
 
     return prod;
 
-
-
-
-
 # A utility function to print a polynomial
 def printPoly(poly, n):
     for i in range(n):
