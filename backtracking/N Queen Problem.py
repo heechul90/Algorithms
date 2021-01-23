@@ -89,7 +89,6 @@ def solveNQ():
     printSolution(board)
     return True
 
-
 # Driver Code
 solveNQ()
 
