@@ -38,7 +38,6 @@ def isSafe(board, row, col):
 
     return True
 
-
 def solveNQUtil(board, col):
     # base case: If all queens are placed
     # then return true
@@ -66,7 +65,6 @@ def solveNQUtil(board, col):
     # if the queen can not be placed in any row in
     # this colum col then return false
     return False
-
 
 # This function solves the N Queen problem using
 # Backtracking. It mainly uses solveNQUtil() to
