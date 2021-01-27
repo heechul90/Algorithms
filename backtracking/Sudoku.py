@@ -9,7 +9,6 @@ def print_grid(arr):
             arr[i][j],
         print('n')
 
-
 # Function to Find the entry in
 # the Grid that is still  not used
 # Searches the grid to find an
@@ -32,7 +31,6 @@ def find_empty_location(arr, l):
                 return True
     return False
 
-
 # Returns a boolean which indicates
 # whether any assigned entry
 # in the specified row matches
@@ -42,7 +40,6 @@ def used_in_row(arr, row, num):
         if (arr[row][i] == num):
             return True
     return False
-
 
 # Returns a boolean which indicates
 # whether any assigned entry
