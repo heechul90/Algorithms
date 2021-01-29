@@ -51,7 +51,6 @@ def used_in_col(arr, col, num):
             return True
     return False
 
-
 # Returns a boolean which indicates
 # whether any assigned entry
 # within the specified 3x3 box
