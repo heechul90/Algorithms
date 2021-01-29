@@ -63,7 +63,6 @@ def used_in_box(arr, row, col, num):
                 return True
     return False
 
-
 # Checks whether it will be legal
 # to assign num to the given row, col
 # Returns a boolean which indicates
@@ -77,7 +76,6 @@ def check_location_is_safe(arr, row, col, num):
     not used_in_col(arr, col, num) and
     not used_in_box(arr, row - row % 3,
                     col - col % 3, num)
-
 
 # Takes a partially filled-in grid
 # and attempts to assign values to
