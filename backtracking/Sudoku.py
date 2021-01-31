@@ -62,8 +62,6 @@ def used_in_box(arr, row, col, num):
                 return True
     return False
 
-a=1
-print(a)
 # Checks whether it will be legal
 # to assign num to the given row, col
 # Returns a boolean which indicates
