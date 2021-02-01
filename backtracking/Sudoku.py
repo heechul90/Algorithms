@@ -141,7 +141,6 @@ if __name__ == "__main__":
     if (solve_sudoku(grid)):
         print_grid(grid)
     else:
-        print
-        "No solution exists"
+        print("No solution exists")
 
 # The above code has been contributed by Harshit Sidhwa.
