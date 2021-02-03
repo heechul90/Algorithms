@@ -12,10 +12,8 @@ def printSolution(board):
             print(board[i][j], end=" ")
         print()
 
-
 """ A Optimized function to check if 
 a queen can be placed on board[row][col] """
-
 
 def isSafe(row, col, slashCode, backslashCode,
            rowLookup, slashCodeLookup,
