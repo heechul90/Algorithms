@@ -31,21 +31,24 @@
 # 2021년 3월 4일, 테스트 케이스가 변경되었습니다. 이로 인해 이전에 통과하던 코드가 더 이상 통과하지 않을 수 있습니다.
 
 def solution(phone_book):
-    num = phone_book[0]
+    phone_book = sorted(phone_book)
 
-    answer = True
-    for i in range(len(phone_book)):
-        if num in i:
-            answer = False
-            break
+    for i, k in zip(phone_book, phone_book[1:]):
+        if k.startswith(i):
+            return False
 
-    return answer
+    return True
 
 # False
 phone_book = ['119', '97674223', '1195524421']
+solution(phone_book)
 
 # True
 phone_book = ['123','456','789']
+solution(phone_book)
 
 # False
 phone_book = ['12','123','1235','567','88']
+solution(phone_book)
+
+
