@@ -30,6 +30,7 @@
 #
 # 2021년 3월 4일, 테스트 케이스가 변경되었습니다. 이로 인해 이전에 통과하던 코드가 더 이상 통과하지 않을 수 있습니다.
 
+### 방법1
 def solution(phone_book):
     phone_book = sorted(phone_book)
 
@@ -38,6 +39,12 @@ def solution(phone_book):
             return False
 
     return True
+
+
+### 방법2
+def solution(phone_book):
+
+
 
 # False
 phone_book = ['119', '97674223', '1195524421']
