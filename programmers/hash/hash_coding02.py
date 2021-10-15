@@ -40,6 +40,8 @@ def solution(phone_book):
 
     return True
 
+
+
 ### 방법2
 def solution(phone_book):
 
