@@ -38,8 +38,7 @@ class MinHeap:
     def extractMin(self):
         return heappop(self.heap)
 
-        # This functon deletes key at index i. It first reduces
-
+    # This functon deletes key at index i. It first reduces
     # value to minus infinite and then calls extractMin()
     def deleteKey(self, i):
         self.decreaseKey(i, float("-inf"))
