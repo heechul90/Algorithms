@@ -34,7 +34,6 @@ class MinHeap:
                 self.heap[self.parent(i)], self.heap[i])
 
             # Method to remove minium element from min heap
-
     def extractMin(self):
         return heappop(self.heap)
 
