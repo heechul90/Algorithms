@@ -23,8 +23,7 @@ class MinHeap:
     def insertKey(self, k):
         heappush(self.heap, k)
 
-        # Decrease value of key at index 'i' to new_val
-
+    # Decrease value of key at index 'i' to new_val
     # It is assumed that new_val is smaller than heap[i]
     def decreaseKey(self, i, new_val):
         self.heap[i] = new_val
