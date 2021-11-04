@@ -3,7 +3,6 @@
 # Import the heap functions from python library
 from heapq import heappush, heappop, heapify
 
-
 # heappop - pop and return the smallest element from heap
 # heappush - push the value item onto the heap, maintaining
 #             heap invarient
